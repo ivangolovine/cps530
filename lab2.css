@@ -1,0 +1,48 @@
+p.title {text-align:center;color:red; font-size:4em;letter-spacing: 0.1em;font-family: 'Explora', cursive;font-weight:600}
+/*Box Model & Float*/
+header.navig {background-color:yellow;padding:10px; border:2px solid blue;border-style: dashed; margin-left:100px;right:300px;top:-110px; position: relative; float:right;}
+#navigT {color:red; letter-spacing: 0.2em}
+.navig{box-sizing:border-box;}
+
+
+.leftAl {text-align: left;}
+.centAl {text-align: center;}
+/*Hover*/
+.yelHover:hover {background-color: #ddf317;}
+
+
+/*id*/
+#clrN {background-color:#88be8c;}
+
+#about {max-width: 300px; min-width: 100; background-color: aqua; position: relative}
+
+
+.titles{text-align:left;color:#4515ff;position:relative; left:30px}
+
+.wrt{align-items: left;max-width:500px;position:relative; left:30px}
+
+/*target*/
+aside:target {
+    background-color: rgba(50, 241, 241, 0.322);
+    max-width: 160px;
+  }
+/*absolute*/
+.imgDog{position: absolute; top:180px; left: 400px; border-radius:20%;}
+
+#imgDesc {position: absolute;top:335px;left: 395px; color:#6529fc;font-size:0.5em;}
+/*relative*/
+.infPos{position:relative;left:25px;}
+
+/*show*/
+#hideL{display:block;visibility: visible;}
+
+/*hide*/
+#hideD{float:left;display:none;visibility: hidden;}
+
+/*z-index*/
+.ryeImg {position: absolute;
+    left: 0px;
+    top: 960px;
+    z-index: -1;}
+
+#footC {font-family:"Lucida Console", "Courier New", monospace;color: rgb(0, 153, 255); background-color: #f3171744; font-size:13px; max-width: 192px;}

@@ -1,0 +1,112 @@
+.title {
+    text-align: center;
+    margin-top: 13px;
+    left: 30px;
+}
+
+
+/* Container */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #1E88E5;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    height: 1000px;
+    background-color: #FFFFFF;
+}
+
+.title {
+    text-align: center;
+    margin-top: 13px;
+    left: 30px;
+}
+
+header {
+    height: 8%;
+    background-color: #52bad5;
+    border-bottom: 1px solid #2C9AB7;
+}
+
+nav {
+    float: right;
+    text-align: right;
+    margin-right: 25px;
+}
+header nav ul {
+    list-style: none;
+    float: right;
+}
+nav ul li {
+    float: left;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: left;
+    margin-right: 25px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    transition: all 0.3s linear;
+}
+ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+ul li:hover a {
+    color: #2C9AB7;
+}
+img {max-width: 100%; height: auto;}
+.colorH {color: #4b0238;}
+.colorW {color: #5b834b;}
+
+
+#intro {color: #52bad5;}
+/*phone*/
+@media only screen and (max-width : 320px){
+    .header nav {
+        margin-top: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        width: 100%;
+        float: none;
+        display: inline-block;
+    }
+    nav ul li {
+        margin-top: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        width: 100%;
+        text-align: center;
+    }
+    .title {
+        margin-top: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .colorH {color: #1ee51e;}
+    .colorW {color: #ff0000;}
+}
+/*Tablet*/
+@media only screen and (min-width: 768px) {
+    .colorH {color: #000000;}
+    .colorW {color: #e5ff00;}
+  } 
+  
+/*Computer*/
+@media only screen and (min-width: 992px) {
+    .colorH {color: #5545ad;}
+    .colorW {color: #0aaa9d;}
+  } 
